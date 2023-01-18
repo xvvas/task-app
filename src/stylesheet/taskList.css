@@ -1,0 +1,23 @@
+.list_taskConainer{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    overflow-y: scroll;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 0.8rem;
+}
+ 
+::-webkit-scrollbar-track {
+    border-radius: 13px;
+    background-color: rgba(25,147,147,0.1);
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 13px;
+    background: linear-gradient(137deg, rgba(27,28,49,1) 0%, rgba(78,80,132,1) 100%);
+}

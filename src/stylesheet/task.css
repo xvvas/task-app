@@ -1,0 +1,65 @@
+/*Colors*/
+.task_component:nth-child(3n +1){
+    background: linear-gradient(137deg, rgba(27,28,49,1) 0%, rgba(78,80,132,1) 100%)
+}
+.task_component:nth-child(3n +2){
+    background: linear-gradient(137deg, rgb(48, 50, 87) 0%, rgb(97, 99, 163) 100%)
+}
+.task_component:nth-child(3n +3){
+    background: linear-gradient(137deg, rgb(82, 85, 146) 0%, rgb(97, 99, 163) 100%)
+}
+
+
+/* task general Container*/
+.task_component{
+    width: 90%;
+    min-height: 10%;
+    background: linear-gradient(137deg, rgba(27,28,49,1) 0%, rgba(78,80,132,1) 100%);
+    margin: 5%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+    align-items: center;
+    border-radius: 0.8rem;
+}
+/* Modifier of task component*/
+.task_component.-completed{
+    color:rgb(129, 132, 218);
+    text-decoration: line-through;
+}
+/*task component text style*/
+.task_text{
+    width:  90%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: anywhere;
+}
+/*task component icon style*/
+.task_conatinerIcons {
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .task_icon{
+        width: 100%;
+        height: 100%;
+        margin: 1%;
+    }
+    .task_icon:active{
+        width: 40%;
+        
+    }
+    .task_icon:active:hover{
+        color: greenyellow;
+        width: 50% ;
+    }
+    
+    .task_icon:hover{
+        color: greenyellow;
+    }
+
